@@ -1,4 +1,6 @@
+import React from 'react';
 import './App.css';
+import 'tailwindcss/tailwind.css';
 
 function App() {
   return (
@@ -11,16 +13,12 @@ function App() {
         <p className="small">
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
+        <div className='gap-2'>
+          <span className='text-red-800'>Using the provided api we'd like to do the following:</span>
+          <div>1. Fetch results & build a search component</div>
+          <div>2. Add the ability to save items from our list of results to different lists</div>
+          <div>3. Show our lists </div>
+        </div>
       </header>
     </div>
   );
